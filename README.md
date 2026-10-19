@@ -1,8 +1,8 @@
 # MausOS
-WebOS build by DahMaus
+WebOS build by DahMaus :D
 
 ## Apps
-*Maus Clicker* and *My Games* showcasing my gamejam gammes i posted on Itch.io!
+*Maus Clicker* a very bare bones cookie clicker clone lol and *My Games* showcasing my gamejam games I posted on Itch.io!
 
 
 ### AI disclosure
