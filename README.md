@@ -5,5 +5,5 @@ WebOS build by DahMaus
 *Maus Clicker* and *My Games* showcasing my gamejam gammes i posted on Itch.io!
 
 
-### AI disclosure:
+### AI disclosure
 used for debugging!
