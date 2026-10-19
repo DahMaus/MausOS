@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<link rel="stylesheet" href="styles.css">
+
+  	<body>
+		<!--
+
+		<h1><strong>Welcome to MausOS</strong></h1>
+
+    	<div style="border: solid; width: 1000px; border-radius: 16px;background-color: #ffffff; padding: 10px;">
+        	<h2><dfn>About Me!</dfn></h2>
+        	<p>yo yo yo wsg im dahmaus my hobbies are developing of games, general software robots and more I also love chess (aint good though lol) I also do boxing!</p>
+        	<p> i have 2 cats, and love animals :D</p>
+        	<p> my fav "niche" of developing is gamdev!</p>
+    	</div>
+   
+    	<img style="width: 124px; height: 160px" src="./serious.png" />
+    	<img style="width: 100px; height: 100px" src="./cat.jpg" />
+
+    	<a href="https://github.com/dahmaus">my very serious github</a>  
+
+		-->
+
+		<video id="BGvideo" autoplay muted loop playsinline>
+    		<source src="./bgLoop.mp4" type="video/mp4">
+		</video>
+
+		<header class="TopBar">
+  			<div class="TBname">
+    			MausOS
+				<img src="./Maus.png" class="TBicon">
+  			</div>
+  
+  			<div class="TBswag">
+    			most swaggy OS ever
+  			</div>
+  
+  			<div class="TBtime">
+    			<p id="timeLabel">2/27/2011 3:33 AM</p>
+  			</div>
+		</header>
+
+		<div class="window" id="Wsgwindow">
+			<p class="windowheader" id="windowheader">
+				Welcome Message
+				<button id="closeWsgWindow" class="closeWindow">×</button>
+			</p>
+
+			<h3> MausOS</h3>
+			<p> wsg! </p>
+		</div>
+
+		<div class="window" id="Appwindow" style="display: none;">
+			<p id="Appwindowheader" class="windowheader">
+				SwaggyRator
+				<button class="closeWindow" id="closeAppWindow">×</button>
+			</p>
+
+			<div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 150px;">
+				<h2 id="counterLabel" style="margin: 0 0 12px 0;">0</h2>
+				<button id="mouseButton">🐭</button>
+			</div>
+		</div>
+
+		<div id="Apps" style="padding-top: 64px; padding-left: 16px;">
+			<img src="./AppIcon.jpg" class="SwagyratorIcon">
+    		<p class="SwagyratorLabel">SwaggyRator</p>
+
+			<img src="./serious.png" class="GamesIcon">
+    		<p class="GamesLabel">My games!</p>
+
+
+			<div class="selectedApp"></div>
+  		</div>
+
+		<div class="window" id="Gameswindow" style="display: none; top: 40%; left: 60%;">
+			<p id="Gameswindowheader" class="windowheader">
+                Games
+			<button class="closeWindow" id="closeGamesWindow">×</button>
+			</p>
+
+			<h3> My Games</h3>
+
+			<a href="https://dahmaus.itch.io/mausnday" target="_blank">
+			<img src="https://img.itch.zone/aW1nLzMxMDUxMjA5LnBuZw==/508x254%23mb/zW4Zes.png" style="width: calc(100% - 24px); margin: 0 12px; border-radius: 4px;">
+			</a>
+			<p>Maus'n Day</p>
+
+			<a href="https://dahmaus.itch.io/fih" target="_blank">
+			<img src="https://img.itch.zone/aW1nLzMwMTQ3NDY1LnBuZw==/508x254%23mb/h3Dqc7.png" style="width: calc(100% - 24px); margin: 0 12px; border-radius: 4px;">
+			</a>
+			<p>Reel Reel Revolution</p>
+
+			<a href="https://dahmaus.itch.io/chessintime" target="_blank">
+			<img src="https://img.itch.zone/aW1nLzI4NzkxMTAyLnBuZw==/508x254%23mb/Rxk9CW.png" style="width: calc(100% - 24px); margin: 0 12px; border-radius: 4px;">
+			</a>
+			<p>Cheesin' Time</p>
+
+			<a href="https://dahmaus.itch.io/spacerat" target="_blank">
+			<img src="https://img.itch.zone/aW1nLzI4MTcyMDY1LnBuZw==/508x254%23mb/CvNA%2FS.png" style="width: calc(100% - 24px); margin: 0 12px; border-radius: 4px;">
+			</a>
+			<p>SpaceRat</p>
+		</div>
+
+  </body>
+
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,168 @@
+body{
+    font-family: Helvetica, Noto Sans, sans-serif;
+
+    background-size: cover; 
+    height: 100vh
+}
+
+#BGvideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover; 
+  z-index: -1;      
+  pointer-events: none;
+}
+
+.window {
+    width: 280px;
+    border: 1px solid #888;
+    border-radius: 6px;
+    background: #f0f0f0;
+    color: #111;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.windowheader {
+    margin: 0;
+    padding: 6px 10px;
+    background: linear-gradient(to bottom, #fff, #e5e5e5);
+    border-bottom: 1px solid #ccc;
+    font-weight: 600;
+    cursor: move;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Wsgwindow::after{
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 12px;
+    width: 48px;
+    height: 48px;
+    background: url("./Maus.png") center / contain no-repeat;
+    image-rendering: pixelated;
+}
+
+.closeWindow {
+    border: none;
+    background: transparent;
+    color: inherit;
+    font-size: 18px;
+    line-height: 16px;
+    cursor: pointer;
+    padding: 0 4px;
+}
+
+.closeWindow:hover {
+    background: #d6d6d6;
+    color: rgb(0, 0, 0);
+    border-radius: 2px;
+}
+
+.window h3,
+.window > p:not(.windowheader) {
+    margin: 12px;
+}
+
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+  
+    height: 32px;
+    padding: 0 8px;
+  
+    background-color: rgba(48, 43, 43, 0.65); 
+    backdrop-filter: blur(12px);
+  
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-size: 13px;
+    user-select: none;
+
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.TBname{
+    font-weight: 600;
+    letter-spacing: 0.5px;
+
+    transform: translateY(2px);
+
+}
+
+.TBswag{
+    color: rgba(255, 255, 255, 0.65); 
+    font-size: 12px;
+    font-style: italic;
+}
+
+.TBtime{
+    transform: translateY(2px);
+
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 12px;
+}
+
+.SwagyratorIcon{
+    border-radius: 8px;
+    width: 64px; 
+    height: 64px; 
+}
+
+.SwagyratorIcon:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+}
+
+.SwagyratorLabel{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 4px;
+    transform: translateX(-6px);
+
+    font-weight: 600;
+}
+
+.GamesLabel{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-top: 4px;
+    transform: translateX(0px);
+
+    font-weight: 600;
+}
+
+.GamesIcon{
+    border-radius: 8px;
+    width: 64px; 
+    height: 64px; 
+}
+
+.GamesIcon:hover{
+    transform: scale(1.05);
+    transition: transform 0.1s ease-in-out;
+}
+
+.selectedApp {
+    animation: spin 0.5s ease-in-out;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
