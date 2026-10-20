@@ -1,6 +1,6 @@
 # MausOS
 
-A browser based OS written in html,js and css featuring 2 apps, music and a live background :D
+A browser based OS featuring 2 apps, music and a live background :D
 ## Showcase
 
 ![MausOS demo](./ShowCaseMausOS-2.gif)
@@ -28,3 +28,5 @@ AI was used for debugging
 
 ## Credits
 Made by me, dahmaus :D
+
+written in html,js and css with love <3
