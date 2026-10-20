@@ -3,7 +3,7 @@
 A browser based OS written in html,js and css featuring 2 apps, music and a live background :D
 ## Showcase
 
-
+![MausOS demo](assets/ShowCaseMausOS-2.gif)
 
 ## Try it out
 
@@ -25,3 +25,6 @@ A browser based OS written in html,js and css featuring 2 apps, music and a live
 ## AI disclosure
 
 AI was used for debugging
+
+## Credits
+Made by me, dahmaus :D
