@@ -3,7 +3,7 @@
 A browser based OS featuring 2 apps, music and a live background :D
 ## Showcase
 
-![MausOS demo](./ShowCaseMausOS-2.gif)
+![MausOS demo](./ShowCaseMausOS-2(1).gif)
 
 ## Try it out
 
